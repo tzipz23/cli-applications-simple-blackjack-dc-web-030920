@@ -58,6 +58,15 @@ end
 #####################################################
 
 def runner
+  prompt_user
+  input = get_user_input
+  if input == 'h' then
+    card_total += deal_card
+    elsif input == 's' then
+      card_total
+      else
+       invalid_command
+    end
   # code runner here
 end
     
