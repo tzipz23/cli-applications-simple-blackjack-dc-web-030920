@@ -50,7 +50,7 @@ end
 
 def invalid_command
    if puts "Please enter a valid command"
-  else prompt_user
+  do prompt_user
   # code invalid_command here
 end
 
